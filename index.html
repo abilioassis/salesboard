@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>"
+    />
+    <title>Salesboard</title>
+  </head>
+  <body>
+    <main class="container flex">
+      <h1>Salesboard 🔔</h1>
+      <figure>
+        <img
+          class="pic"
+          src="img/foto-abilio-rosto-2.jpeg"
+          alt="Face picture"
+        />
+      </figure>
+      <section class="actions">
+        <button type="button" class="btn">⭐</button>
+        <button type="button" class="btn">🔥</button>
+      </section>
+      <section class="live-sales">
+        <h2>Live Sales - <span id="live-sales-qtd">12</span></h2>
+        <div id="live-sales-history" class="live-sales-history">
+          ⭐⭐⭐🔥⭐🔥🔥⭐⭐⭐⭐⭐
+        </div>
+      </section>
+      <section class="live-achivements">
+        <h2>Live Achievements - <span id="live-achivements-qtd">2</span></h2>
+        <div id="live-achivements-history" class="live-achivements-history">
+          🔔💰
+        </div>
+      </section>
+      <section class="totals flex">
+        <div class="total">
+          <h2>Total Revenue</h2>
+          <div id="total-revenue-value" class="total-revenue-value">$2700</div>
+        </div>
+        <div class="total">
+          <h2>Total Commission</h2>
+          <div id="total-commision-value" class="total-commission-value">
+            $675
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

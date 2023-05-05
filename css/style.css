@@ -1,0 +1,89 @@
+/* Global definitions */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CSS variables */
+:root {
+  --black: #201a23;
+  --white: #fbfbfb;
+  --dark: #44354a;
+  --pink: #9e4770;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  user-select: none;
+}
+
+h1 {
+  font-size: 1.25rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  color: var(--white);
+  background: var(--black);
+  padding: 1.25rem 1.875rem;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.pic {
+  display: block;
+  margin: 0 auto;
+  width: 8rem;
+  height: 8rem;
+  object-fit: cover;
+  border: solid 5px var(--dark);
+  border-radius: 50%;
+}
+
+.btn {
+  font-size: 1.25rem;
+  padding: 0.4rem 1.5rem;
+  background: var(--pink);
+  border: none;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+}
+
+.live-sales-history,
+.live-achivements-history,
+.total-revenue-value,
+.total-commission-value {
+  background: var(--dark);
+  padding: 0.5rem;
+  border-radius: 22px;
+  margin-top: 0.5rem;
+}
+
+.totals.flex {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.total {
+  flex: 1;
+}
+
+@media (max-width: 380px) {
+  .total h2 {
+    height: 3rem;
+  }
+}
