@@ -83,8 +83,12 @@ h2 {
   flex: 1;
 }
 
-@media (max-width: 380px) {
+.total h2 {
+  height: 3rem;
+}
+
+/* @media (max-width: 380px) {
   .total h2 {
     height: 3rem;
   }
-}
+} */
