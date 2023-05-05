@@ -35,10 +35,6 @@ h2 {
   background: var(--black);
   padding: 1.25rem 1.875rem;
   text-align: center;
-  /* border: solid 15px var(--dark); */
-}
-
-.flex {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -63,17 +59,15 @@ h2 {
   margin-right: 0.5rem;
 }
 
-.live-sales-history,
-.live-achivements-history,
-.total-revenue-value,
-.total-commission-value {
+.box {
   background: var(--dark);
   padding: 0.5rem;
   border-radius: 22px;
   margin-top: 0.5rem;
 }
 
-.totals.flex {
+.totals {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 1rem;
@@ -81,14 +75,7 @@ h2 {
 
 .total {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
-/* .total h2 {
-  height: 3rem;
-} */
-
-/* @media (max-width: 380px) {
-  .total h2 {
-    height: 3rem;
-  }
-} */
