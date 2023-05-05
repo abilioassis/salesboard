@@ -83,6 +83,10 @@ h2 {
 }
 
 @media (max-width: 380px) {
+  .container {
+    max-width: 100vw;
+  }
+
   .total h2 {
     height: 3rem;
   }
