@@ -18,7 +18,6 @@
 body {
   font-family: "Poppins", sans-serif;
   user-select: none;
-  background: var(--dark);
 }
 
 h1 {
@@ -36,6 +35,7 @@ h2 {
   background: var(--black);
   padding: 1.25rem 1.875rem;
   text-align: center;
+  border: solid 15px var(--dark);
 }
 
 .flex {
