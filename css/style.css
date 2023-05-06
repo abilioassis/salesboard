@@ -29,11 +29,9 @@ h2 {
 }
 
 .container {
-  width: 100%;
+  width: 90%;
   max-width: 500px;
-  /* min-width: 100vh;
-  min-width: 100svh; */
-  width: 100svh;
+  height: 100svh;
   margin: 0 auto;
   color: var(--white);
   background: var(--black);
