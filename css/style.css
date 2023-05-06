@@ -31,7 +31,7 @@ h2 {
 .container {
   width: 90%;
   max-width: 500px;
-  height: 100svh;
+  min-height: 100svh;
   margin: 0 auto;
   color: var(--white);
   background: var(--black);
