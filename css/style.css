@@ -30,7 +30,7 @@ h2 {
 
 .container {
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
   min-height: 100svh;
   margin: 0 auto;
   color: var(--white);
