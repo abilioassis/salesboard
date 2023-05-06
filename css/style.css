@@ -45,16 +45,16 @@ h2 {
 .pic {
   display: block;
   margin: 0 auto;
-  width: 8rem;
-  height: 8rem;
+  width: 10rem;
+  height: 10rem;
   object-fit: cover;
   border: solid 5px var(--dark);
   border-radius: 50%;
 }
 
 .btn {
-  font-size: 1.25rem;
-  padding: 0.4rem 1.5rem;
+  font-size: 1.5rem;
+  padding: 0.6rem 3rem;
   background: var(--pink);
   border: none;
   border-radius: 5px;
