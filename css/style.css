@@ -35,7 +35,7 @@ h2 {
   margin: 0 auto;
   color: var(--white);
   background: var(--black);
-  padding: 1.25rem 1.875rem;
+  padding: 2rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -85,4 +85,10 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media (min-width: 500px) {
+  .container {
+    min-height: auto;
+  }
 }
