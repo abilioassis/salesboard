@@ -52,9 +52,14 @@ h2 {
   border-radius: 50%;
 }
 
+.actions {
+  display: flex;
+  justify-content: center;
+}
+
 .btn {
   font-size: 1.5rem;
-  padding: 0.6rem 3rem;
+  padding: 0.6rem 2rem;
   background: var(--pink);
   border: none;
   border-radius: 5px;
