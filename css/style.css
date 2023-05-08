@@ -46,6 +46,11 @@ h2 {
   gap: 1.5rem;
 }
 
+.container.ligth {
+  background: var(--white);
+  color: var(--black);
+}
+
 .pic {
   display: block;
   margin: 0 auto;
@@ -80,6 +85,10 @@ h2 {
   min-height: 2.5rem;
   word-wrap: break-word;
   line-height: 2;
+}
+
+.display.light {
+  color: var(--white);
 }
 
 .totals {
