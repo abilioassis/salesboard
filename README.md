@@ -8,7 +8,7 @@ This is a solution to the [M3 - Salesboard](https://scrimba.com/scrim/co7fe43cfb
 
 ## Links
 
-- Live Site: [Netlify]()
+- Live Site: [Netlify](https://superb-kulfi-fc6c92.netlify.app)
 - Codebase: [Github](https://github.com/abilioassis/salesboard)
 - Code review: [Scrimba]()
 
