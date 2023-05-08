@@ -139,12 +139,14 @@ function reset(btn) {
  * Change Theme
  */
 function changeTheme(link) {
+  // Light theme
   if (link.innerText === "Light Theme") {
     containerEl.style.background = white;
     containerEl.style.color = black;
     totalRevenueEl.style.color = white;
     totalCommissionEl.style.color = white;
     link.innerText = "Dark Theme";
+    // Dark theme
   } else {
     containerEl.style.background = black;
     containerEl.style.color = white;
