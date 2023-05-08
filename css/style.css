@@ -64,13 +64,18 @@ h2 {
   border: none;
   border-radius: 5px;
   margin-right: 0.5rem;
+  color: var(--white);
+  font-family: "Poppins", sans-serif;
 }
 
-.box {
+.display {
   background: var(--dark);
-  padding: 0.5rem;
+  padding: 0 1rem;
   border-radius: 22px;
   margin-top: 0.5rem;
+  min-height: 2.5rem;
+  word-wrap: break-word;
+  line-height: 2;
 }
 
 .totals {
