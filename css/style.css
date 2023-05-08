@@ -39,7 +39,7 @@ h2 {
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .pic {
@@ -62,7 +62,7 @@ h2 {
   padding: 0.6rem 2rem;
   background: var(--pink);
   border: none;
-  border-radius: 5px;
+  border-radius: 15px;
   margin-right: 0.5rem;
   color: var(--white);
   font-family: "Poppins", sans-serif;

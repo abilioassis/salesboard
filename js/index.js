@@ -19,6 +19,8 @@ const productB = {
 /**
  * Variables
  */
+const white = "#fbfbfb";
+const black = "#201a23";
 let liveSales = 0;
 let totalRevenue = 0;
 let totalCommission = 0;
@@ -27,6 +29,7 @@ let achieved = false;
 /**
  * DOM Variables
  */
+const containerEl = document.getElementById("container");
 const liveAchievementsEl = document.getElementById("live-achievements");
 const liveAchievementsHistoryEl = document.getElementById(
   "live-achievements-history"
@@ -46,6 +49,11 @@ document.getElementById("fire-btn").addEventListener("click", function () {
 document.getElementById("reset-btn").addEventListener("click", function () {
   reset(this);
 });
+document
+  .getElementById("theme-selector")
+  .addEventListener("click", function () {
+    changeTheme(this);
+  });
 
 /**
  * Update the user interface of the app
@@ -127,4 +135,21 @@ function reset(btn) {
   totalCommission = 0;
   achieved = false;
   updateUI(btn);
+}
+
+/**
+ * Change Theme
+ */
+function changeTheme(link) {
+  if (link.innerText === "Light Theme") {
+    containerEl.style.background = white;
+    containerEl.style.color = black;
+    totalRevenueEl.style.color = white;
+    totalCommissionEl.style.color = white;
+    link.innerText = "Dark Theme";
+  } else {
+    containerEl.style.background = black;
+    containerEl.style.color = white;
+    link.innerText = "Light Theme";
+  }
 }
