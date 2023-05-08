@@ -73,14 +73,12 @@ function updateLiveSales(btn) {
   if (btn.id != "reset-btn") {
     // increase the amount of sales
     liveSales += 1;
-  }
-  // update the UI
-  liveSalesEl.innerText = liveSales;
-  if (btn.id != "reset-btn") {
     liveSalesHistoryEl.innerText += btn.innerText;
   } else {
     liveSalesHistoryEl.innerText = "";
   }
+  // update the UI
+  liveSalesEl.innerText = liveSales;
 }
 
 /**
