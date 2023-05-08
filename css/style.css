@@ -20,6 +20,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+a {
+  color: var(--pink);
+}
+
 h1 {
   font-size: 2rem;
 }
