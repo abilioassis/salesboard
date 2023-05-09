@@ -139,7 +139,16 @@ function reset(btn) {
  * Change Theme
  */
 function changeTheme(link) {
+  toggleText(link, "Light Theme", "Dark Theme");
   containerEl.classList.toggle("ligth");
   totalRevenueEl.classList.toggle("light");
   totalCommissionEl.classList.toggle("light");
+}
+
+function toggleText(link, txt1, txt2) {
+  if (link.innerText === txt1) {
+    link.innerText = txt2;
+  } else {
+    link.innerText = txt1;
+  }
 }
